@@ -4,3 +4,7 @@ body{
     background: red;
     color: white;
 }
+
+#box1{
+    border: 1px solid red;
+}
