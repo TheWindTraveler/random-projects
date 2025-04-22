@@ -1,9 +1,10 @@
 let boxEl1 = document.getElementById("box1");
 let boxEl2 = document.getElementById("box2");
 let boxEl3 = document.getElementById("box3");
+let boxEl4 = document.getElementById("box4");
 
-let differentFruits = ["🍎", "🍎",
-    "🍉", "🍈", "🍉", "🍈", "🍉", "🍈"
+let differentFruits = ["🍎", "🥒", "🍎",
+    "🍉", "🍈", "🍉", "🥒", "🍈", "🍉", "🍈", "🥒"
 ];
 
 function displayDifferentFruits(){
@@ -14,8 +15,10 @@ function displayDifferentFruits(){
             boxEl2.textContent += "🍉";
         } else if (differentFruits[i] === "🍈"){
             boxEl3.textContent += "🍈";
+        } else if (differentFruits[i] === "🥒"){
+            boxEl4.textContent += "🥒";
         }
-    }
+    }   
 }
 
 displayDifferentFruits()
