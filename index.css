@@ -6,9 +6,10 @@ body{
 }
 
 #box1, #box2, #box3, #box4{
-    border: 1px solid red;
+    border: 1px solid rgb(163, 46, 46);
     margin: 10px auto;
     padding: 20px;
     width: 20%;
     border-radius: 5px;
+    background-color: rgba(224, 39, 194, 0.267);
 }
