@@ -12,6 +12,8 @@ body{
     border: none;
     cursor: pointer;
     background-color: black;
+    display: block;
+    margin: 10px auto;
 }
 
 .btn, a{
