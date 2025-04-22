@@ -1,10 +1,31 @@
 body{
-    display: block;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
+/* Index Button Styles */
+.btn{
+    padding: 20px;
+    width: 35%;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+}
+
+.btn, a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgb(43, 2, 2);
+}
+
+/* Fruit Selctor JS App Styles */
 #box1, #box2, #box3, #box4, #box5{
     border: 1px solid rgb(163, 46, 46);
     margin: 10px auto;
