@@ -36,3 +36,31 @@ body{
     border-radius: 5px;
     background-color: rgba(224, 39, 194, 0.267);
 }
+
+
+/* Emoji Fighter JS App Styles */
+#heading1{
+    color: rgb(243, 168, 8);
+    transform: rotate(-10deg);
+    margin: 50px;
+    font-size: 45px;
+    text-shadow: 4px 3px 4px #000;
+}
+
+/* Button */
+#pickFighters{
+    padding: 15px;
+    border: none;
+    width: 20%;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(243, 168, 8);
+    color: white;
+    margin: 50px;
+    cursor: pointer;
+}
+
+#pickFighters:hover{
+    background-color: black;
+}
