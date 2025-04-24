@@ -42,9 +42,12 @@ body{
 #heading1{
     color: rgb(243, 168, 8);
     transform: rotate(-10deg);
-    margin: 50px;
+    margin: 50px auto;
     font-size: 45px;
     text-shadow: 4px 3px 4px #000;
+    border: 3px solid rgb(255, 175, 3);
+    width: 20%;
+    padding: 10px;
 }
 
 /* Button */
@@ -63,4 +66,16 @@ body{
 
 #pickFighters:hover{
     background-color: black;
+}
+
+#arena{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    gap: 25px;
+    margin-top: 60px;
+}
+
+#vs{
+    color: rgb(243, 168, 8);
 }
