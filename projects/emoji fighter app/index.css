@@ -1,0 +1,47 @@
+:root{
+    --primary-color: rgb(243, 168, 8);
+    --heading-border-color: rgb(255, 175, 3);
+    --shadow: #000;
+}
+
+/* Emoji Fighter JS App Styles */
+#heading1{
+    color: var(--primary-color);
+    transform: rotate(-10deg);
+    margin: 50px auto;
+    font-size: 45px;
+    text-shadow: 4px 3px 4px var(--shadow);
+    border: 3px solid var(--heading-border-color);
+    width: 20%;
+    padding: 10px;
+}
+
+/* Button */
+#pickFighters{
+    padding: 15px;
+    border: none;
+    width: 20%;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: var(--primary-color);
+    color: white;
+    margin: 50px;
+    cursor: pointer;
+}
+
+#pickFighters:hover{
+    background-color: var(--shadow);
+}
+
+#arena{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    gap: 25px;
+    margin-top: 60px;
+}
+
+#vs{
+    color: var(--primary-color);
+}
