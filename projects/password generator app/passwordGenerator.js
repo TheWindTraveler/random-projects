@@ -1,0 +1,1 @@
+console.log("Yo! JS linked properly");
