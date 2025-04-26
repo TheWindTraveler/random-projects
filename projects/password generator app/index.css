@@ -2,6 +2,7 @@
     --background-color: #1E1E1E;
     --primary-color: #1ED760;
     --text-color: white;
+    --secondary-color: #333333;
 }
 
 body{
@@ -19,6 +20,7 @@ body{
     border: 1px solid var(--text-color);
     padding: 30px;
     border-radius: 3px;
+    /* width: 30%; */
 }
 
 #generate-password{
@@ -36,4 +38,13 @@ body{
 #generate-password:hover{
     background-color: var(--text-color);
     color: var(--background-color);
+}
+
+#password-box-1, #password-box-2{
+    border: 1px solid var(--text-color);
+    padding: 20px;
+    width: 50%;
+    margin: 20px 0 0 0;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
 }
