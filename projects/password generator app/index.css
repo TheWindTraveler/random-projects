@@ -20,7 +20,15 @@ body{
     border: 1px solid var(--text-color);
     padding: 30px;
     border-radius: 3px;
-    /* width: 30%; */
+    width: 22%;
+}
+
+.container h1{
+    font-size: 30px;
+}
+
+.secure-highlight{
+    color: var(--primary-color);
 }
 
 #generate-password{
@@ -33,6 +41,7 @@ body{
     color: var(--text-color);
     background-color: var(--primary-color);
     margin-top: 30px;
+    width: 100%;
 }
 
 #generate-password:hover{
@@ -43,7 +52,7 @@ body{
 #password-box-1, #password-box-2{
     border: 1px solid var(--text-color);
     padding: 20px;
-    width: 50%;
+    width: 86%;
     margin: 20px 0 0 0;
     border-radius: 5px;
     background-color: var(--secondary-color);
