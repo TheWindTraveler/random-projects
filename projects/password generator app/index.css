@@ -20,3 +20,20 @@ body{
     padding: 30px;
     border-radius: 3px;
 }
+
+#generate-password{
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--text-color);
+    background-color: var(--primary-color);
+    margin-top: 30px;
+}
+
+#generate-password:hover{
+    background-color: var(--text-color);
+    color: var(--background-color);
+}
