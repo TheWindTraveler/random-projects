@@ -14,3 +14,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+.container{
+    border: 1px solid var(--text-color);
+    padding: 30px;
+    border-radius: 3px;
+}
