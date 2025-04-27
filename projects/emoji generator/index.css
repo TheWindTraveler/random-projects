@@ -60,4 +60,5 @@ body{
     border-radius: 3px;
     color: white;
     margin-bottom: 15px;
+    cursor: pointer;
 }
