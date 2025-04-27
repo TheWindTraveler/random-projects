@@ -1,5 +1,6 @@
 :root{
     --primary-color: #0de053;
+    --secondary-color: #797979;
 }
 
 body{
@@ -35,12 +36,28 @@ body{
     font-size: 20px;
 }
 
+.emoji-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+#random-emoji-box-1, #random-emoji-box-2{
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 3px;
+    margin: 15px 0 25px 0;
+    max-width: 200px;
+    width: 35%;
+}
+
 #generate-emoji{
     padding: 13px;
     font-size: 16px;
     font-weight: bold;
     background-color: var(--primary-color);
     border: none;
+    width: 45%;
     border-radius: 3px;
     color: white;
+    margin-bottom: 15px;
 }
