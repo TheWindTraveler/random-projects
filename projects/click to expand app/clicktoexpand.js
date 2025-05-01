@@ -6,6 +6,10 @@ buttonEl1.addEventListener("click", function(){
     popup.style.display = "block";
 })
 
+buttonEl2.addEventListener("click", function(){
+    popup.style.display = "block"
+})
+
 function closePopup(){
     popup.style.display = "none";
 }
