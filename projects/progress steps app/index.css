@@ -16,5 +16,23 @@ body{
     display: flex;
     flex-direction: column;
     text-align: center;
+    width: 360px;
+    margin: 0 auto;
+}
+
+.progress-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+    width: 125%;
 }
 
