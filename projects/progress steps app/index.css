@@ -62,3 +62,10 @@ body{
 #next{
     background-color: var(--primary-color);
 }
+
+.circle{
+    border: 2px solid var(--inactive-color);
+    border-radius: 50%;
+    /* width: 30px; */
+    padding: 20px;
+}
