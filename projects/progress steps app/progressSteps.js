@@ -6,9 +6,20 @@ const circleEl = document.querySelectorAll("circle");
 let currentActive = 1;
 
 next.addEventListener('click', () => {
-    currentActive++
+    currentActive++;
     
     if(currentActive > circleEl.length){
         currentActive = circleEl.length
     }
+
+    update()
 });
+
+prevEl.addEventListener('click', () => {
+    currentActive--;
+    if(currentActive < 1){
+        currentActive = 1;
+    }
+
+    update()
+})
